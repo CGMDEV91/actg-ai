@@ -1,0 +1,25 @@
+{
+  "aiCore": "0.8.0",
+  "name": "actg",
+  "repo": "actg",
+  "language": "en",
+  "agents": [
+    "opencode",
+    "claude-code"
+  ],
+  "stacks": [
+    {
+      "name": "drupal",
+      "paths": [
+        "lib/modules",
+        "lib/themes"
+      ],
+      "configSync": "config/sync",
+      "apiRoot": "web/anti-counterfeiting-and-anti-piracy-technology-guide",
+      "exec": "ddev"
+    }
+  ],
+  "vars": {
+    "drush": "ddev drush"
+  }
+}

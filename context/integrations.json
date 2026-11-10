@@ -1,0 +1,33 @@
+{
+ "generated_by": "node .ai/scripts/cli.ts integrations --update",
+ "integrations": {
+  "mail:_": {
+   "config": {
+    "config/sync/symfony_mailer.mailer_policy._.yml": "35a64ab23c"
+   },
+   "file": "config/sync/symfony_mailer.mailer_policy._.yml",
+   "kind": "mail policy"
+  },
+  "mail:symfony_mailer.test": {
+   "config": {
+    "config/sync/symfony_mailer.mailer_policy.symfony_mailer.test.yml": "7fe0247025"
+   },
+   "file": "config/sync/symfony_mailer.mailer_policy.symfony_mailer.test.yml",
+   "kind": "mail policy"
+  },
+  "mail:transport:sendmail": {
+   "config": {
+    "config/sync/symfony_mailer.mailer_transport.sendmail.yml": "a088246f19"
+   },
+   "file": "config/sync/symfony_mailer.mailer_transport.sendmail.yml",
+   "kind": "mail transport"
+  },
+  "mail:transport:smtp": {
+   "config": {
+    "config/sync/symfony_mailer.mailer_transport.smtp.yml": "1ea94483f6"
+   },
+   "file": "config/sync/symfony_mailer.mailer_transport.smtp.yml",
+   "kind": "mail transport"
+  }
+ }
+}

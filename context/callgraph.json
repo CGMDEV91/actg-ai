@@ -1,0 +1,6 @@
+{
+ "generated_by": "bash .ai/scripts/knowledge/scan-callpaths.sh --update",
+ "depth": 2,
+ "functions_indexed": 211,
+ "skills": {}
+}
